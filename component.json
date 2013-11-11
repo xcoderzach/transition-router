@@ -6,7 +6,8 @@
   "keywords": [],
   "dependencies": {
     "component/router": "*",
-    "component/classes": "*"
+    "component/classes": "*",
+    "xcoderzach/transition-router": "*"
   },
   "development": {},
   "license": "MIT",
