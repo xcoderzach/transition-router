@@ -1,0 +1,21 @@
+{
+  "name": "transition-router",
+  "repo": "xcoderzach/transition-router",
+  "description": "pushState router with css transitions",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/router": "*",
+    "component/classes": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js"
+  ],
+  "styles": [
+    "lib/style.css"
+  ],
+  "remotes": []
+}

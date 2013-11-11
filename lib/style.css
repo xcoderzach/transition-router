@@ -1,0 +1,35 @@
+.current-page {
+  visibility: visible;
+}
+
+.from-right {
+  -webkit-animation: from-right 0.4s ease both;
+}
+
+.from-left {
+  -webkit-animation: from-left 0.4s ease both;
+}
+
+.to-right {
+  -webkit-animation: to-right 0.4s ease both;
+}
+
+.to-left {
+  -webkit-animation: to-left 0.4s ease both;
+}
+
+@-webkit-keyframes from-right {
+  from { -webkit-transform: translateX(100%); }
+}
+
+@-webkit-keyframes to-right {
+  to { -webkit-transform: translateX(100%); }
+}
+
+@-webkit-keyframes from-left {
+  from { -webkit-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes to-left {
+  to { -webkit-transform: translateX(-100%); }
+}
