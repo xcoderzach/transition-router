@@ -1,5 +1,6 @@
 .current-page {
   visibility: visible;
+  z-index:9;
 }
 
 .from-right {
@@ -16,6 +17,39 @@
 
 .to-left {
   -webkit-animation: to-left 0.4s ease both;
+}
+
+.from-top {
+  -webkit-animation: from-top 0.4s ease both;
+}
+
+.from-bottom {
+  -webkit-animation: from-bottom 0.4s ease both;
+}
+
+.to-top {
+  -webkit-animation: to-top 0.4s ease both;
+  z-index: 10;
+}
+
+.to-bottom {
+  -webkit-animation: to-bottom 0.4s ease both;
+}
+
+@-webkit-keyframes from-top {
+  from { -webkit-transform: translateY(-100%); }
+}
+
+@-webkit-keyframes to-top {
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@-webkit-keyframes from-bottom {
+  from { -webkit-transform: translateY(100%); }
+}
+
+@-webkit-keyframes to-bottom {
+  to { -webkit-transform: translateY(100%); }
 }
 
 @-webkit-keyframes from-right {
